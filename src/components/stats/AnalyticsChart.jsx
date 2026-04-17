@@ -29,7 +29,7 @@ export default function AnalyticsChart({ counts }) {
           No interaction data available yet.
         </div>
       ) : (
-        <div className="mt-4 h-[320px] w-full">
+        <div className="mt-4 h-[321px] w-full">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
               <Pie
