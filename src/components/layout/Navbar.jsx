@@ -32,7 +32,7 @@ export default function Navbar() {
                   }`}
                 >
                   <Icon
-                    className={`text-[18px] ${
+                    className={`text-[17px] ${
                       isActive ? '!text-white' : 'text-slate-700'
                     }`}
                   />
