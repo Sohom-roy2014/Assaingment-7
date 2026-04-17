@@ -15,7 +15,7 @@ export default function FriendInfoCard({ friend }) {
         <StatusBadge status={friend.status} />
       </div>
 
-      <div className="mt-3 flex flex-wrap items-center justify-center gap-2">
+      <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
         {friend.tags.map((tag) => (
           <span
             key={`${friend.id}-${tag}`}
